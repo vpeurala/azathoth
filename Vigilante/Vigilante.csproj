@@ -40,25 +40,25 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="GamepadBridge">
-      <HintPath>..\..\..\Downloads\mono-MonoGame-e6a05fd\MonoGame.Framework\bin\Release\GamepadBridge.dll</HintPath>
+      <HintPath>Lib\Debug\GamepadBridge.dll</HintPath>
     </Reference>
     <Reference Include="Lidgren.Network">
-      <HintPath>..\..\..\Downloads\mono-MonoGame-e6a05fd\MonoGame.Framework\bin\Release\Lidgren.Network.dll</HintPath>
+      <HintPath>Lib\Debug\Lidgren.Network.dll</HintPath>
     </Reference>
     <Reference Include="MonoGame.Framework.Linux">
-      <HintPath>..\..\..\Downloads\mono-MonoGame-e6a05fd\MonoGame.Framework\bin\Release\MonoGame.Framework.Linux.dll</HintPath>
-    </Reference>
-    <Reference Include="OpenTK">
-      <HintPath>..\..\..\Downloads\opentk\Binaries\OpenTK\Release\OpenTK.dll</HintPath>
-    </Reference>
-    <Reference Include="Tao.Sdl">
-      <HintPath>..\..\..\Downloads\mono-MonoGame-e6a05fd\MonoGame.Framework\bin\Release\Tao.Sdl.dll</HintPath>
+      <HintPath>Lib\Debug\MonoGame.Framework.Linux.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK.Compatibility">
-      <HintPath>..\..\..\Downloads\opentk\Binaries\OpenTK\Release\OpenTK.Compatibility.dll</HintPath>
+      <HintPath>Lib\Debug\OpenTK.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>Lib\Debug\OpenTK.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK.GLControl">
-      <HintPath>..\..\..\Downloads\opentk\Binaries\OpenTK\Release\OpenTK.GLControl.dll</HintPath>
+      <HintPath>Lib\Debug\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>Lib\Debug\Tao.Sdl.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
