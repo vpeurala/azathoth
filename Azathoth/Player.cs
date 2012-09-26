@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Vigilante
+namespace Azathoth
 {
 	public class Player
 	{

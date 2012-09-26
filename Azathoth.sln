@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vigilante", "Vigilante\Vigilante.csproj", "{D1016971-FEC7-443A-8461-ED84C63CA91D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azathoth", "Azathoth\Azathoth.csproj", "{D1016971-FEC7-443A-8461-ED84C63CA91D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,6 @@ Global
 		{D1016971-FEC7-443A-8461-ED84C63CA91D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Vigilante\Vigilante.csproj
+		StartupItem = Azathoth\Azathoth.csproj
 	EndGlobalSection
 EndGlobal

@@ -7,8 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D1016971-FEC7-443A-8461-ED84C63CA91D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Vigilante</RootNamespace>
-    <AssemblyName>Vigilante</AssemblyName>
+    <RootNamespace>Azathoth</RootNamespace>
+    <AssemblyName>Azathoth</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,7 +33,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="VigilanteGame.cs" />
+    <Compile Include="AzathothGame.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="AnimatedTexture.cs" />

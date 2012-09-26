@@ -1,10 +1,10 @@
-namespace Vigilante
+namespace Azathoth
 {
 	public class Program
 	{
 		static void Main(string[] args)
 		{
-			VigilanteGame game = new VigilanteGame();
+			AzathothGame game = new AzathothGame();
 			game.Run();
 		}
 	}

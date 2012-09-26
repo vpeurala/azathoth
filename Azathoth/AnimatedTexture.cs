@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections;
 
-namespace Vigilante
+namespace Azathoth
 {
 	public class AnimatedTexture
 	{

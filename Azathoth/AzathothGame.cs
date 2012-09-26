@@ -3,16 +3,16 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Vigilante
+namespace Azathoth
 {
-	public class VigilanteGame : Game
+	public class AzathothGame : Game
 	{
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 		Player player;
 		Map map;
 
-		public VigilanteGame ()
+		public AzathothGame ()
 		{
 			graphics = new GraphicsDeviceManager (this);
 			player = new Player ();
