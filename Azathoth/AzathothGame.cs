@@ -1,7 +1,9 @@
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Media;
 
 namespace Azathoth
 {
@@ -10,6 +12,7 @@ namespace Azathoth
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 		Player player;
+		Song song;
 		Map map;
 
 		public AzathothGame ()
@@ -25,6 +28,8 @@ namespace Azathoth
 			
 			player.LoadContent (Content);
 			map.LoadContent (Content);
+			song = Content.Load<Song>("../../Songs/song.wav");
+			MediaPlayer.Play (song);
 		}
 		
 		double timePerFrame = 1.0 / 8.0;

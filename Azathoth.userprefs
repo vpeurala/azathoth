@@ -1,6 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Azathoth/AzathothGame.cs">
+    <Files>
+      <File FileName="Azathoth/AzathothGame.cs" Line="31" Column="51" />
+      <File FileName="Azathoth/Player.cs" Line="19" Column="77" />
+      <File FileName="Azathoth/AnimatedTexture.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
