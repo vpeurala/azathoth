@@ -7,6 +7,7 @@ namespace Azathoth
 	public class Terrain
 	{
 		Texture2D terrain;
+		Texture2D carpet;
 
 		public Terrain ()
 		{
@@ -24,11 +25,21 @@ namespace Azathoth
 					spriteBatch.Draw (terrain, rect, Color.White);
 				}
 			}
+			
+			DrawSprite (spriteBatch, 1, 1, carpet);
+		}
+		
+		private void DrawSprite (SpriteBatch spriteBatch, int x, int y, Texture2D sprite)
+		{
+			Rectangle rect = new Rectangle (x * 95, y * 95, 95, 95);
+				
+			spriteBatch.Draw (sprite, rect, Color.White);
 		}
 
 		public void LoadContent (ContentManager Content)
 		{
 			terrain = Content.Load<Texture2D> ("../../Textures/Terrain/floor.png");
+			carpet  = Content.Load<Texture2D> ("../../Textures/Terrain/Carpet.png");
 		}
 	}
 }
