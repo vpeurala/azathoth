@@ -24,7 +24,7 @@ namespace Azathoth
 		AnimatedTexture texture;
 	
 		Vector2 direction = new Vector2();
-		Vector2 position = new Vector2();
+		Vector2 position = new Vector2(96, 96);
 		float velocity;
 
 		public Player ()

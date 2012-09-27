@@ -37,6 +37,7 @@
     <Compile Include="Player.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="AnimatedTexture.cs" />
+    <Compile Include="Terrain.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="GamepadBridge">

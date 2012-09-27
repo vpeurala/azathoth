@@ -11,6 +11,7 @@ namespace Azathoth
 	{
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
+		Terrain terrain;
 		Player player;
 		Song song;
 		Map map;
@@ -18,6 +19,7 @@ namespace Azathoth
 		public AzathothGame ()
 		{
 			graphics = new GraphicsDeviceManager (this);
+			terrain = new Terrain ();
 			player = new Player ();
 			map = new Map ();
 		}
@@ -26,6 +28,7 @@ namespace Azathoth
 		{
 			spriteBatch = new SpriteBatch (GraphicsDevice);
 			
+			terrain.LoadContent (Content);
 			player.LoadContent (Content);
 			map.LoadContent (Content);
 			song = Content.Load<Song>("../../Songs/song.wav");
@@ -60,9 +63,13 @@ namespace Azathoth
 			
 			spriteBatch.Begin ();
 			
-			map.Draw (spriteBatch);
+			terrain.Draw (spriteBatch);
+
+			map.DrawBefore (spriteBatch);
 
 			player.Draw (spriteBatch);
+
+			map.DrawAfter (spriteBatch);
 
 			spriteBatch.End ();
 			
